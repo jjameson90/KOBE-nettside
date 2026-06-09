@@ -4,36 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kontakt oss — KOBE</title>
-  <meta name="description" content="Ta kontakt med Karl Ove Bjørnstad Eiendom. Besøk oss på Fjordgata 80 i Trondheim, ring 739 91 960 eller send e-post til post@kobe.no." />
+  <meta name="description" content="Ta kontakt med Karl Ove Bjørnstad Eiendom. Besøk oss på Fjordgata 80, ring 739 91 960 eller send e-post." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23161712'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='14' fill='%23f3efe7'%3EK%3C/text%3E%3C/svg%3E" />
-  <style>
-    .form-row { display: flex; flex-direction: column; gap: 6px; }
-    .form-row label { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mute); }
-    .form-row input, .form-row textarea, .form-row select {
-      padding: 14px 0;
-      border: 0;
-      border-bottom: 1px solid var(--line);
-      background: transparent;
-      font: inherit;
-      color: var(--ink);
-      outline: none;
-      transition: border-color 0.3s var(--ease);
-    }
-    .form-row input:focus, .form-row textarea:focus, .form-row select:focus {
-      border-bottom-color: var(--accent);
-    }
-    .form-row textarea { min-height: 100px; resize: vertical; }
-    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 32px; }
-    @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
-    .form-grid .full { grid-column: 1 / -1; }
-  </style>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%230f0d08'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='14' fill='%23ebe5d6'%3EK%3C/text%3E%3C/svg%3E" />
 </head>
-<body class="grain">
+<body>
   <div class="scroll-progress"></div>
+
   <header class="nav">
     <a href="index.html" class="nav__logo"><span class="mark">K</span><span>KOBE</span></a>
     <nav><ul class="nav__links">
@@ -44,7 +24,7 @@
       <li><a href="ansatte.html">Ansatte</a></li>
       <li><a href="nyheter.html">Nyheter</a></li>
     </ul></nav>
-    <a href="kontakt.html" class="nav__cta is-active" data-magnetic="0.2">Kontakt oss
+    <a href="kontakt.html" class="nav__cta is-active">Kontakt oss
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
     </a>
     <button class="nav__burger" aria-label="Åpne meny"><span></span></button>
@@ -108,7 +88,7 @@
               <textarea id="message" required></textarea>
             </div>
             <div class="full">
-              <button type="submit" class="btn" data-magnetic="0.2">Send melding
+              <button type="submit" class="btn">Send melding
                 <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
               </button>
             </div>
@@ -134,7 +114,7 @@
           </div>
           <div class="contact__row">
             <small>Åpningstid</small>
-            <span style="font-size:18px; font-family:var(--f-sans); letter-spacing:normal;">Man–fre · 08:00–16:00</span>
+            <span style="font-size:18px; font-family:var(--f-sans); font-weight:300;">Man–fre · 08:00–16:00</span>
           </div>
         </aside>
       </div>
@@ -143,11 +123,11 @@
     <section class="wrap">
       <div class="fade-up">
         <span class="eyebrow">Selskapsinformasjon</span>
-        <h2 class="h2" style="margin-top:24px; margin-bottom:40px">Tre juridiske enheter — ett konsern.</h2>
+        <h2 class="h2" style="margin-top:24px; margin-bottom:48px">Tre juridiske enheter —<br/>ett <em style="color:var(--gold); font-style:italic;">konsern</em>.</h2>
       </div>
       <div class="grid grid-3 fade-up">
-        <div style="border-top:1px solid var(--line); padding-top:24px;">
-          <span class="eyebrow" style="color:var(--accent)">Morselskap</span>
+        <div style="border-top:1px solid var(--gold); padding-top:24px;">
+          <span class="eyebrow">Morselskap</span>
           <h3 class="h3" style="margin-top:16px; margin-bottom:16px">Karl-Ove Bjørnstad Eiendom AS</h3>
           <ul class="ticker-list" style="grid-template-columns: 1fr;">
             <li>Org. 919 309 113</li>
@@ -155,8 +135,8 @@
             <li>Eiendomshandel &amp; utleie</li>
           </ul>
         </div>
-        <div style="border-top:1px solid var(--line); padding-top:24px;">
-          <span class="eyebrow" style="color:var(--accent)">Entreprenør</span>
+        <div style="border-top:1px solid var(--gold); padding-top:24px;">
+          <span class="eyebrow">Entreprenør</span>
           <h3 class="h3" style="margin-top:16px; margin-bottom:16px">Karl-Ove Bjørnstad AS</h3>
           <ul class="ticker-list" style="grid-template-columns: 1fr;">
             <li>Org. 971 583 398</li>
@@ -164,8 +144,8 @@
             <li>Bolig &amp; kombinasjonsbygg</li>
           </ul>
         </div>
-        <div style="border-top:1px solid var(--line); padding-top:24px;">
-          <span class="eyebrow" style="color:var(--accent)">Service</span>
+        <div style="border-top:1px solid var(--gold); padding-top:24px;">
+          <span class="eyebrow">Service</span>
           <h3 class="h3" style="margin-top:16px; margin-bottom:16px">KOBE Service AS</h3>
           <ul class="ticker-list" style="grid-template-columns: 1fr;">
             <li>Org. 923 307 346</li>
@@ -179,7 +159,7 @@
 
   <footer class="footer"><div class="wrap">
     <div class="footer__grid">
-      <div><div class="footer__brand">KOBE<em style="color:var(--accent); font-style:italic;">.</em></div><p style="max-width:36ch; font-size:14px;">Karl Ove Bjørnstad Eiendom — kvalitet og beliggenhet siden 1975. Trondheim.</p></div>
+      <div><div class="footer__brand">KOBE<em>.</em></div><p style="max-width:36ch; font-size:14px;">Karl Ove Bjørnstad Eiendom — kvalitet og beliggenhet siden 1975. Trondheim.</p></div>
       <div><h4>Virksomhet</h4><ul><li><a href="entreprenor.html">Entreprenør</a></li><li><a href="eiendom.html">Eiendom</a></li><li><a href="service.html">Service</a></li><li><a href="prosjekter.html">Prosjekter</a></li></ul></div>
       <div><h4>Selskap</h4><ul><li><a href="ansatte.html">Ansatte</a></li><li><a href="nyheter.html">Nyheter</a></li><li><a href="kontakt.html">Kontakt oss</a></li></ul></div>
       <div><h4>Kontakt</h4><ul><li><a href="mailto:post@kobe.no">post@kobe.no</a></li><li><a href="tel:+4773991960">739 91 960</a></li><li>Fjordgata 80, Trondheim</li></ul></div>
@@ -187,8 +167,6 @@
     <div class="footer__bottom"><span>© <span data-year>2026</span> Karl Ove Bjørnstad Eiendom AS</span><span>Org. 919 309 113 · 971 583 398 · 923 307 346</span></div>
   </div></footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -5,22 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>KOBE — Karl Ove Bjørnstad Eiendom · Kvalitet og beliggenhet siden 1975</title>
   <meta name="description" content="Ett av Trondheims største eiendomsutviklere og utleiere. Rundt 300 sentrale leiligheter, totalentreprise og bygningsfornyelse gjennom KOBE Service." />
-  <meta name="theme-color" content="#f3efe7" />
+  <meta name="theme-color" content="#ebe5d6" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23161712'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='14' fill='%23f3efe7'%3EK%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%230f0d08'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='14' fill='%23ebe5d6'%3EK%3C/text%3E%3C/svg%3E" />
 </head>
-<body class="grain">
+<body>
   <div class="scroll-progress"></div>
 
-  <div class="loader">
-    <div class="loader__word">KOBE</div>
-    <div class="loader__bar"></div>
-  </div>
-
-  <!-- NAVIGATION -->
   <header class="nav">
     <a href="index.html" class="nav__logo" aria-label="KOBE – Hjem">
       <span class="mark">K</span>
@@ -36,14 +31,13 @@
         <li><a href="nyheter.html">Nyheter</a></li>
       </ul>
     </nav>
-    <a href="kontakt.html" class="nav__cta" data-magnetic="0.2">
+    <a href="kontakt.html" class="nav__cta">
       Kontakt oss
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
     </a>
     <button class="nav__burger" aria-label="Åpne meny"><span></span></button>
   </header>
 
-  <!-- MOBILE MENU -->
   <div class="menu" aria-hidden="true">
     <ul class="menu__links">
       <li><a href="index.html">Hjem</a></li>
@@ -61,7 +55,6 @@
     </div>
   </div>
 
-  <!-- HERO -->
   <main>
     <section class="hero wrap">
       <div class="hero__top">
@@ -69,11 +62,8 @@
         <p>Ett av Trondheims største eiendomsutviklere og utleiere. Vi bygger byer vi vil bo i, og ivaretar det bygde med varsom hånd.</p>
       </div>
 
-      <div class="hero__headline">
-        <h1 class="display">
-          <span class="line"><span>Kvalitet</span></span>
-          <span class="line"><span>og <em>beliggenhet</em>.</span></span>
-        </h1>
+      <div class="hero__body">
+        <h1 class="display">Kvalitet<br/>og <em>beliggenhet</em>.</h1>
 
         <div class="hero__meta">
           <span><strong>Siden 1975</strong> — Karl Ove Bjørnstad Eiendom</span>
@@ -100,12 +90,11 @@
       </div>
     </section>
 
-    <!-- INTRO / ABOUT -->
     <section class="wrap">
       <div class="intro">
         <div class="fade-up">
           <span class="eyebrow">Om KOBE</span>
-          <h2 class="h2" style="margin-top:24px">Tre selskaper.<br/>Én helhetlig visjon.</h2>
+          <h2 class="h2" style="margin-top:24px">Tre selskaper.<br/>Én helhetlig <em style="color:var(--gold); font-style:italic;">visjon</em>.</h2>
         </div>
         <div class="fade-up">
           <p class="pillar">
@@ -129,20 +118,19 @@
       </div>
     </section>
 
-    <!-- SERVICES -->
     <section class="services">
       <div class="wrap">
         <div class="services__head">
           <div class="fade-up">
             <span class="eyebrow">Virksomheten</span>
-            <h2 class="h2" style="margin-top:24px">Hva vi leverer.</h2>
+            <h2 class="h2" style="margin-top:24px">Hva vi <em style="color:var(--gold); font-style:italic;">leverer</em>.</h2>
           </div>
           <p class="lead fade-up">Vi jobber i hele verdikjeden — fra regulering og utvikling, til oppføring som totalentreprenør, og videre forvaltning og fornyelse i levende bygg.</p>
         </div>
 
         <div class="services__list">
-          <a href="entreprenor.html" class="service" data-num="01">
-            <span class="service__num">01 / Karl-Ove Bjørnstad AS</span>
+          <a href="entreprenor.html" class="service">
+            <span class="service__num">I · Karl-Ove Bjørnstad AS</span>
             <div>
               <h3 class="service__title">Entreprenør</h3>
               <p class="service__desc">Totalentreprenør med hovedfokus på utvikling og oppføring av prosjekter i egen virksomhet. Boligkomplekser og kombinasjonsbygg med både bolig og næring.</p>
@@ -152,7 +140,7 @@
             </span>
           </a>
           <a href="eiendom.html" class="service">
-            <span class="service__num">02 / Karl-Ove Bjørnstad Eiendom AS</span>
+            <span class="service__num">II · Karl-Ove Bjørnstad Eiendom AS</span>
             <div>
               <h3 class="service__title">Eiendom</h3>
               <p class="service__desc">Rundt 300 utleieleiligheter sentralt i Trondheim — fra små hybler til romslige leiligheter med høy standard. Vi tilbyr også flotte næringslokaler til leie.</p>
@@ -162,7 +150,7 @@
             </span>
           </a>
           <a href="service.html" class="service">
-            <span class="service__num">03 / KOBE Service AS</span>
+            <span class="service__num">III · KOBE Service AS</span>
             <div>
               <h3 class="service__title">Service</h3>
               <p class="service__desc">Selvstendig entreprenør rettet mot service og bygningsfornyelse i Midt-Norge. 19 dyktige og serviceinnstilte ansatte med stor kapasitet — fra offentlige bygg til minste vaktmesteroppdrag.</p>
@@ -175,12 +163,11 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
     <section class="wrap">
       <div class="projects__head">
         <div class="fade-up">
           <span class="eyebrow">Utvalgte prosjekter</span>
-          <h2 class="h2" style="margin-top:24px">Ikoner under oppføring.</h2>
+          <h2 class="h2" style="margin-top:24px">Ikoner under <em style="color:var(--gold); font-style:italic;">oppføring</em>.</h2>
         </div>
         <a href="prosjekter.html" class="link-arrow fade-up">
           Se alle prosjekter
@@ -190,11 +177,11 @@
 
       <div class="grid grid-3 fade-up">
         <a href="prosjekter.html#rosendal" class="project">
-          <div class="project__media media-rosendal"></div>
+          <img class="project__img" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&h=1500&fit=crop&auto=format&q=75" alt="Via Rosendal — moderne boligprosjekt" loading="lazy" />
           <div class="project__body">
             <div>
               <div class="project__label">Under utvikling · Trondheim</div>
-              <div class="project__title">Via Rosendal</div>
+              <div class="project__title">Via <em>Rosendal</em></div>
             </div>
             <span class="project__arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
@@ -202,11 +189,11 @@
           </div>
         </a>
         <a href="prosjekter.html#mollenberg" class="project">
-          <div class="project__media media-mollenberg"></div>
+          <img class="project__img" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=1500&fit=crop&auto=format&q=75" alt="Nedre Møllenberg — nyklassisistisk boligblokk" loading="lazy" />
           <div class="project__body">
             <div>
               <div class="project__label">Regulering · Møllenberg</div>
-              <div class="project__title">Nedre Møllenberg 99/101</div>
+              <div class="project__title">Nedre <em>Møllenberg</em> 99/101</div>
             </div>
             <span class="project__arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
@@ -214,11 +201,11 @@
           </div>
         </a>
         <a href="prosjekter.html#saksvik" class="project">
-          <div class="project__media media-saksvik"></div>
+          <img class="project__img" src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1200&h=1500&fit=crop&auto=format&q=75" alt="Saksvik Øvre — gårdstun-inspirert" loading="lazy" />
           <div class="project__body">
             <div>
-              <div class="project__label">Ferdigstilt</div>
-              <div class="project__title">Saksvik Øvre</div>
+              <div class="project__label">Ferdigstilt · Malvik</div>
+              <div class="project__title">Saksvik <em>Øvre</em></div>
             </div>
             <span class="project__arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
@@ -228,37 +215,37 @@
       </div>
     </section>
 
-    <!-- FEATURE / PORTEFØLJE -->
     <section class="wrap">
       <div class="feature">
-        <div class="feature__media media-fjordgata fade-up"></div>
+        <div class="feature__media fade-up">
+          <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=1200&h=1500&fit=crop&auto=format&q=75" alt="Sentrale leiligheter i Trondheim" loading="lazy" />
+        </div>
         <div class="fade-up">
           <span class="feature__tag">Eiendomsportefølje</span>
-          <h2 class="h2" style="margin-bottom:24px">Sentrale leiligheter med sjel.</h2>
+          <h2 class="h2" style="margin-bottom:24px">Sentrale leiligheter<br/>med <em style="color:var(--gold); font-style:italic;">sjel</em>.</h2>
           <p class="lead">De fleste av våre utleieenheter er sentralt plassert i Trondheim, rundt Møllenberg og Buran. Vårt fokus er et rent og ryddig forhold til leietakerne — og å være konkurransedyktig på pris. Kontoret vårt ligger i ett av utleiebyggene i Fjordgata 80, slik at vi alltid er tilgjengelige.</p>
           <ul class="feature__list">
             <li><span>Leiligheter &amp; hybler</span><span>300+ enheter</span></li>
             <li><span>Beliggenhet</span><span>Møllenberg · Buran · sentrum</span></li>
             <li><span>Næringslokaler</span><span>Flere ledige</span></li>
-            <li><span>Standard</span><span>Fra enkel hybel til høy standard</span></li>
+            <li><span>Standard</span><span>Fra hybel til høy standard</span></li>
           </ul>
           <div style="margin-top:40px; display:flex; gap:16px; flex-wrap:wrap;">
-            <a href="eiendom.html" class="btn" data-magnetic="0.2">
+            <a href="eiendom.html" class="btn">
               Se porteføljen
               <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
             </a>
-            <a href="kontakt.html" class="btn btn--ghost" data-magnetic="0.2">Ta kontakt</a>
+            <a href="kontakt.html" class="btn btn--ghost">Ta kontakt</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- NEWS PREVIEW -->
     <section class="wrap">
       <div class="projects__head">
         <div class="fade-up">
           <span class="eyebrow">Nyheter</span>
-          <h2 class="h2" style="margin-top:24px">Det siste fra KOBE.</h2>
+          <h2 class="h2" style="margin-top:24px">Det siste fra <em style="color:var(--gold); font-style:italic;">KOBE</em>.</h2>
         </div>
         <a href="nyheter.html" class="link-arrow fade-up">
           Alle nyheter
@@ -278,7 +265,7 @@
         <a href="nyheter.html" class="news__item">
           <span class="news__date">Mars 2026</span>
           <span class="news__tag">Salg</span>
-          <span class="news__title">Via Rosendal — 40 nye leiligheter med treningssenter og offentlig park</span>
+          <span class="news__title">Via Rosendal — 40 nye leiligheter med treningssenter og park</span>
           <span class="news__arrow">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
           </span>
@@ -294,15 +281,14 @@
       </div>
     </section>
 
-    <!-- CTA -->
     <div class="cta fade-up">
       <div class="cta__inner">
         <div>
-          <span class="eyebrow" style="color: var(--accent-soft)">Snakk med oss</span>
-          <h2 class="h2" style="margin-top:24px">Klar for ditt neste prosjekt?</h2>
+          <span class="eyebrow">Snakk med oss</span>
+          <h2 class="h2" style="margin-top:24px">Klar for ditt neste <em>prosjekt</em>?</h2>
           <p style="color: var(--bg-alt); opacity: 0.7; max-width: 44ch; margin-top: 24px;">Vi tar gjerne en prat om utvikling, entreprise, utleie eller service. Du treffer oss på Fjordgata 80.</p>
         </div>
-        <a href="kontakt.html" class="btn" data-magnetic="0.2">
+        <a href="kontakt.html" class="btn">
           Ta kontakt
           <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
         </a>
@@ -310,12 +296,11 @@
     </div>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="wrap">
       <div class="footer__grid">
         <div>
-          <div class="footer__brand">KOBE<em style="color:var(--accent); font-style:italic;">.</em></div>
+          <div class="footer__brand">KOBE<em>.</em></div>
           <p style="max-width:36ch; font-size:14px;">Karl Ove Bjørnstad Eiendom — kvalitet og beliggenhet siden 1975. Trondheim.</p>
         </div>
         <div>
@@ -351,10 +336,6 @@
     </div>
   </footer>
 
-  <!-- Smooth scroll + animations -->
-  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
